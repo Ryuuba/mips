@@ -1,0 +1,3 @@
+message ClockSignal {
+  bool level;
+}

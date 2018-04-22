@@ -13,13 +13,4 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-#ifndef MOD_H_
-#define MOD_H_
-
-class Mod {
-public:
-    Mod();
-    virtual ~Mod();
-};
-
-#endif /* MOD_H_ */
+package mips.simplehardware;

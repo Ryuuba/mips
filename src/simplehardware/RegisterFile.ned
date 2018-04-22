@@ -13,14 +13,21 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-#include "Mod.h"
+package mips.simplehardware;
 
-Mod::Mod() {
-    // TODO Auto-generated constructor stub
+import mips.base.SequentialModule;
 
+simple RegisterFile extends SequentialModule
+{
+    parameters:
+        @class(RegisterFile);
+        @display("i=mips/register,yellow");
+    gates:
+        input regAddr1;
+        input regAddr2;
+        input regAddrDest;
+        input regWrite;
+        input dataIn;
+        output rs;
+        output rt;
 }
-
-Mod::~Mod() {
-    // TODO Auto-generated destructor stub
-}
-

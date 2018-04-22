@@ -1,3 +1,3 @@
-package template.simulations;
+package mips.simulations;
 
 @license(LGPL);

@@ -13,11 +13,15 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package template;
+package mips.simplehardware;
 
-//
-// TODO auto-generated type
-//
-simple Mod
+simple Adder
 {
+    parameters:
+        double module_delay @unit(s) = default(0s);
+        @display("i=mips/plus");
+    gates:
+        input portA;
+        input portB;
+        output result;
 }

@@ -1,3 +1,3 @@
-package template;
+package mips;
 
 @license(LGPL);

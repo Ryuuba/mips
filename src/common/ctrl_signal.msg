@@ -1,0 +1,3 @@
+message CtrlSignal {
+  bool signal[];
+}
